@@ -14,39 +14,24 @@ iPad:
 @media screen and (device-aspect-ratio: 3/4) {}*/
 
 
+/* iPhone 5 Portrait */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) {
+	.content { background-color: olive; }
+	.wrapper { width: 300px; }
+	img.album { width: 75px!important; }
+}
+
 /* iPhone 5 Landscape */
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 568px) 
 and (orientation : landscape) {
 	.content { background-color: maroon; }
-	.wrapper { width: 500px; }
-	img.album { width: 50px!important; }
-}
-
-/* iPhone 5 Portrait */
-@media only screen 
-and (min-device-width : 320px) 
-
-and (max-device-width : 568px) 
-and (orientation : portrait) {
-	.content { background-color: teal; }
-	.wrapper { width: 450px; }
-	img.album { width: 150px!important; }
-}
-
-
-
-/*@media (min-width: 320px) and (max-width: 480px) {
-	.content { background-color: blue; }
-	.wrapper { width: 300px; }
-	img.album { width: 150px!important; }
-}*/
-
-@media (min-width: 481px) and (max-width: 600px) {
-	.content { background-color: purple; }
-	.wrapper { width: 360px; }
-	img.album { width: 180px!important;}
+	.wrapper { width: 540px; }
+	img.album { width: 90px!important; }
 }
 
 @media (min-width: 601px) and (max-width: 800px) {
@@ -75,12 +60,12 @@ and (orientation : portrait) {
 }
 
 @media (min-width: 1601px) and (max-width: 1800px) {
-	.content { background-color: maroon; }
+	.content { background-color: teal; }
 	.wrapper { width: 1400px; }
 }
 
 @media (min-width: 1801px) and (max-width: 2000px) {
-	.content { background-color: teal; }
+	.content { background-color: grey; }
 	.wrapper { width: 1600px; }
 }
 
