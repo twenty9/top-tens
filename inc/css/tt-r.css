@@ -1,24 +1,52 @@
-/* TEXT STYLES */
+/*iPhone < 5:
+@media screen and (device-aspect-ratio: 2/3) {}
 
-@media (min-width: 320px) and (max-width: 480px) {
-	.content { background-color: blue; }
+iPhone 5:
+@media screen and (device-aspect-ratio: 40/71) {}
 
-	.wrapper { width: 300px; }
-	
-	img.album {
-		width: 150px!important;
-	}
+iPhone 6:
+@media screen and (device-aspect-ratio: 667/375) {}
+
+iPhone 6 Plus:
+@media screen and (device-aspect-ratio: 16/9) {}
+
+iPad:
+@media screen and (device-aspect-ratio: 3/4) {}*/
+
+
+/* iPhone 5 Landscape */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : landscape) {
+	.content { background-color: maroon; }
+	.wrapper { width: 500px; }
+	img.album { width: 100px!important; }
 }
+
+/* iPhone 5 Portrait */
+@media only screen 
+and (min-device-width : 320px) 
+
+and (max-device-width : 568px) 
+and (orientation : portrait) {
+	.content { background-color: teal; }
+	.wrapper { width: 450px; }
+	img.album { width: 150px!important; }
+}
+
+
+
+/*@media (min-width: 320px) and (max-width: 480px) {
+	.content { background-color: blue; }
+	.wrapper { width: 300px; }
+	img.album { width: 150px!important; }
+}*/
+
 @media (min-width: 481px) and (max-width: 600px) {
 	.content { background-color: purple; }
-	.wrapper {
-		width: 360px;
-	}
-	
-	img.album {
-		width: 180px!important;
-	}
-	
+	.wrapper { width: 360px; }
+	img.album { width: 180px!important;}
 }
 
 @media (min-width: 601px) and (max-width: 800px) {
