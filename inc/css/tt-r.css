@@ -1,55 +1,58 @@
 /* iPhone 5 Portrait */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 568px) 
-and (orientation : portrait) {
-	.content { /*background-color: olive;*/ }
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {
+	/*.content { background-color: olive; }*/
 	.wrapper { width: 300px; }
 	img.album { width: 100px!important; }
 }
-
 /* iPhone 5 Landscape */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 568px) 
-and (orientation : landscape) {
-	.content { /*background-color: maroon;*/ }
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) {
+	/*.content { background-color: maroon; }*/
 	.wrapper { width: 540px; }
 	img.album { width: 108px!important; }
 }
-
-@media (min-width: 801px) and (max-width: 1000px) {
-	.content { background-color: orange; }
-	.wrapper { width: 600px;}
+@media (min-width: 321px) and (max-width: 520px) {
+	/*.content { background-color: maroon; }*/
+	.wrapper { width: 320px;}
+	img.album { width: 105px!important; }
 }
-
-@media (min-width: 1001px) and (max-width: 1200px) {
-	.content { background-color: yellow; }
+@media (min-width: 521px) and (max-width: 720px) {
+	/*.content { background-color: teal; }*/
+	.wrapper { width: 500px;}
+	img.album { width: 125px!important; }
+}
+@media (min-width: 721px) and (max-width: 820px) {
+	/*.content { background-color: orange; }*/
+	.wrapper { width: 700px;}
+	img.album { width: 140px!important; }
+}
+@media (min-width: 821px) and (max-width: 1200px) {
+	/*.content { background-color: yellow; }*/
 	.wrapper { width: 800px; }
+	img.album { width: 160px!important; }
 }
-
 @media (min-width: 1201px) and (max-width: 1400px) {
-	.content { background-color: pink; }
+	/*.content { background-color: pink; }*/
 	.wrapper { width: 1000px; }
+	img.album { width: 165px!important; }
 }
-
 @media (min-width: 1401px) and (max-width: 1600px) {
-	.content { background-color: fuchsia; }
+	/*.content { background-color: fuchsia; }*/
 	.wrapper { width: 1200px; }
+	img.album { width: 170px!important; }
 }
-
 @media (min-width: 1601px) and (max-width: 1800px) {
-	.content { background-color: teal; }
+	/*.content { background-color: teal; }*/
 	.wrapper { width: 1400px; }
-}
+	img.album { width: 185px!important; }
 
+}
 @media (min-width: 1801px) and (max-width: 2000px) {
-	.content { background-color: grey; }
+	/*.content { background-color: grey; }*/
 	.wrapper { width: 1600px; }
+	img.album { width: 195px!important; }
 }
-
 @media (min-width: 2001px) and (max-width: 2050px) {
-	.content { background-color: red; }
+	/*.content { background-color: red; }*/
 	.wrapper { width: 1800px; }
 }
 
