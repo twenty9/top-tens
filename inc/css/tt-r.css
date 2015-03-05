@@ -21,7 +21,7 @@ and (max-device-width : 568px)
 and (orientation : landscape) {
 	.content { background-color: maroon; }
 	.wrapper { width: 500px; }
-	img.album { width: 100px!important; }
+	img.album { width: 50px!important; }
 }
 
 /* iPhone 5 Portrait */
