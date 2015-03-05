@@ -1,27 +1,11 @@
-/*iPhone < 5:
-@media screen and (device-aspect-ratio: 2/3) {}
-
-iPhone 5:
-@media screen and (device-aspect-ratio: 40/71) {}
-
-iPhone 6:
-@media screen and (device-aspect-ratio: 667/375) {}
-
-iPhone 6 Plus:
-@media screen and (device-aspect-ratio: 16/9) {}
-
-iPad:
-@media screen and (device-aspect-ratio: 3/4) {}*/
-
-
 /* iPhone 5 Portrait */
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 568px) 
 and (orientation : portrait) {
-	.content { background-color: olive; }
+	.content { /*background-color: olive;*/ }
 	.wrapper { width: 300px; }
-	img.album { width: 75px!important; }
+	img.album { width: 100px!important; }
 }
 
 /* iPhone 5 Landscape */
@@ -29,14 +13,9 @@ and (orientation : portrait) {
 and (min-device-width : 320px) 
 and (max-device-width : 568px) 
 and (orientation : landscape) {
-	.content { background-color: maroon; }
+	.content { /*background-color: maroon;*/ }
 	.wrapper { width: 540px; }
-	img.album { width: 90px!important; }
-}
-
-@media (min-width: 601px) and (max-width: 800px) {
-	.content { background-color: green; }
-	.wrapper { width: 400px;}
+	img.album { width: 108px!important; }
 }
 
 @media (min-width: 801px) and (max-width: 1000px) {
